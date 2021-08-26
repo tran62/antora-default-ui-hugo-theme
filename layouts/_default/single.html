@@ -5,4 +5,14 @@
     {{ .Content }}
     {{ partial "pagination" . }}
   </article>
+  <!-- ... -->
+  {{ if or .Params.math .Site.Params.math }}
+  {{ partial "math.html" . }}
+  {{ end }}
+  <!-- ... -->
+  {{ if or .Params.s9 .Site.Params.s9 }}
+   <hr>{{ i18n  "shareThisArticle" }}
+   <div class="s9-widget-wrapper"></div>
+  {{ end }}
+  
 {{ end }}
