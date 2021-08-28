@@ -1,8 +1,9 @@
-baseURL = "https://example.com/"
-languageCode = "en"
-
+#baseURL = "https://example.com/"
+baseURL = "http://localhost/"
+languageCode = "fr"
 title = "Example Site"
 theme = "antora-default-ui-hugo-theme"
+themesDir = "../.."
 
 copyright = "Acme Corp. All rights reserved."
 paginate = 3
