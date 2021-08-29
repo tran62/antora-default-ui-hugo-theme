@@ -1,6 +1,6 @@
 # Content
 - id: contents
-  translation: "What's on this page:"
+  translation: "Page contents"
 - id: continueReading
   translation: "Continue reading &ldquo;{{ . }}&rdquo; &hellip;"
 - id: dateFormat
@@ -16,7 +16,7 @@
 - id: taggedWith
   translation: "Tagged with"
 - id: shareThisArticle
-  translation: "Share this article on"
+  translation: "Share this article with"
 
 
 # 404 page
